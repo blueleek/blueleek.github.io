@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "876. Linked List Cycle"
+title:  "141. Linked List Cycle"
 categories: 算法
 tags: LeetCode Algorithm LinkedList
 author: Ella
@@ -29,7 +29,8 @@ author: Ella
  Output: true
  Explanation: There is a cycle in the linked list, where tail connects to the second node.
  ```
- ![](https://assets.leetcode.com/uploads/2018/12/07/circularlinkedlist.png)
+ 
+![](https://assets.leetcode.com/uploads/2018/12/07/circularlinkedlist.png)
  
 >Example 2:
 ```
@@ -38,59 +39,34 @@ Output: true
 Explanation: There is a cycle in the linked list, where tail connects to the first node.
 
 ```
+
 ![](https://assets.leetcode.com/uploads/2018/12/07/circularlinkedlist_test2.png)
+ 
  
 > Note:
  The number of nodes in the given list will be between 1 and 100.
  If there are two middle nodes, return the second middle node.
  
+>Example 3:
  
- >Example 3:
  ```
  Input: head = [1], pos = -1
  Output: false
  Explanation: There is no cycle in the linked list.
  ```
- ![](https://assets.leetcode.com/uploads/2018/12/07/circularlinkedlist_test3.png)
  
- 
-### 方法一：求链表长度取中点
-
- 
- ```
- let middleNode = function(head) {
-     let targetLen = Math.ceil(getLength(head)/2);
-     return returnAtPosition(head, targetLen);
- };
- 
- let getLength = function(node) {
-     let length = 0;
-     while(node.next) {
-         length += 1;
-         node = node.next;
-     }
-     return length;
- };
- 
- let returnAtPosition = function(node, targetLen) {
-     for(let i = 0; i < targetLen; i++) {
-         node = node.next;
-     }
-     return node;
- };
- ```
+![](https://assets.leetcode.com/uploads/2018/12/07/circularlinkedlist_test3.png)
  
  
  
- ```
- 1 > 2 > 3 > 4
- 1 > 2 > 3 > 4 > 5
- ```
+ 
+ 
+### 快慢指针法
   定义快慢指针，`slow`，`fast`，慢指针每向前移动一步，快指针移动两步
   循环条件： `fast.next !== null ` && `fast.next.next !== null`
   终止条件： `fast` 和 `slow` 相遇，即值相等
   
-  ### 代码示例
+### 代码示例
 
  ```
 var hasCycle = function(head) {
@@ -109,9 +85,8 @@ var hasCycle = function(head) {
      
  ```
  
- ### 彩蛋：快慢指针相遇的图解证明
- ![在这里插入图片描述](https://img-blog.csdnimg.cn/20191219142702159.jpeg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2hodGh3eA==,size_16,color_FFFFFF,t_70)
- };
+### 彩蛋：快慢指针相遇的图解证明
+ ![在这里插入图片描述](https://img-blog.csdnimg.cn/20191219142702159.jpeg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2hodGh3eA==,size_6,color_FFFFFF,t_70)
  
  
 
