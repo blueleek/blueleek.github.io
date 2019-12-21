@@ -8,7 +8,7 @@ author: blueLeek
 
 早起一道算法题，清神洗脑。<br/>
 寻找两链表的交叉点，最初的实现思路是计算出两链表的长度，利用链表长度的差值，将两链表的头节点移动到相同距离的起点位置进行移动，直到节点相遇。<br/>
-按照这样思路确实可以实现，只是代码写起来很不优雅，在Discuss中看到most votes解决方案，使用了一种很tricky的解决方法，对两个长度不同的链表进行遍历，至尾节点时将头节点指向对方头部节点，最终指针遍历路程相同时，二者即在交叉点相遇，确实很tricky。
+按照这样思路确实可以实现，只是代码写起来很不优雅，在Discuss中看到most votes解决方案，使用了一种很tricky的解决方法，对两个长度不同的链表进行遍历，至尾节点时将头节点指向对方头部节点，最终指针遍历路程相同时，二者即在交叉点相遇.
 
 
 
@@ -22,10 +22,10 @@ author: blueLeek
 
 >Write a program to find the node at which the intersection of two singly linked lists begins.
 >
-> For example, the following two linked lists:
+> For example, the following two linked lists: <br/>
 ![](https://assets.leetcode.com/uploads/2018/12/13/160_statement.png)
 >To represent a cycle in the given linked list, we use an integer pos which represents the position (0-indexed) in the linked list where tail connects to. If pos is -1, then there is no cycle in the linked list.
->begin to intersect at node c1.
+>begin to intersect at node c1.<br/>
 >Example 1:
 ![](https://assets.leetcode.com/uploads/2018/12/13/160_example_1.png)
 >
