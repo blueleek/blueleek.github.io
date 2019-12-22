@@ -3,7 +3,7 @@ layout: post
 title:  "203. Remove Linked List Elements                                            "
 categories: 算法
 tags: LeetCode Algorithm LinkedList
-author: blueLeek
+author: blueleek
 ---
 
 在实现链表算法中，有时需针对多种情况分类讨论，稍不注意，就会遗漏某种情况。因此可使用一些 tricky 的做法将情况简化。

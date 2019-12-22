@@ -3,7 +3,7 @@ layout: post
 title:  "161.Intersection of Two Linked Lists"
 categories: 算法
 tags: LeetCode Algorithm LinkedList
-author: blueLeek
+author: blueleek
 ---
 
 早起一道算法题，清神洗脑。<br/>

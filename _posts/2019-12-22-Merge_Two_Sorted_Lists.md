@@ -3,7 +3,7 @@ layout: post
 title:  "21. Merge Two Sorted Lists"                                            "
 categories: 算法
 tags: LeetCode Algorithm LinkedList
-author: blueLeek
+author: blueleek
 ---
 
 

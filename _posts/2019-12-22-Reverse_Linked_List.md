@@ -3,7 +3,7 @@ layout: post
 title:  "206. Reverse Linked List                                            "
 categories: 算法
 tags: LeetCode Algorithm LinkedList
-author: blueLeek
+author: blueleek
 ---
 
  在单链表的插入，删除某节点，将链表逆序都需要遍历链表，所需要的时间和链表的长度成正比，标准的做法是使用双向链表。但在已给条件是单链表的情况下就需要遍历整个链表进行操作。

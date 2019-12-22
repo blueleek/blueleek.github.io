@@ -3,7 +3,7 @@ layout: post
 title:  "141. Linked List Cycle"
 categories: 算法
 tags: LeetCode Algorithm LinkedList
-author: blueLeek
+author: blueleek
 ---
 
 这两天沉浸在链表的算法中，这道链表题的思路依然是使用快慢指针，但很有意思的是遇到一个数学证明问题，需要证明有环链表中，快指针每次前进 2 步，慢指针前进一步，最终快慢指针一定会相遇 <br/>
