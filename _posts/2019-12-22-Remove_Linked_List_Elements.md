@@ -29,6 +29,7 @@ author: blueLeek
 思路：对不同情况进行分类处理
 * 当头节点等于val，执行重复handle，将 `head = head.next`
 * 当前 `current.next` match 到要匹配的 val，将 `current.next = current.next.next`，否则将其置为 `node after` <br/>
+
 代码示例：
 ```
 var removeElements = function(head, val) {
