@@ -1,16 +1,24 @@
 ---
 layout: post
-title:  "21. Merge Two Sorted Lists                                            "
+title:  "21. Merge Two Sorted Lists"
 categories: 算法
 tags: LeetCode Algorithm LinkedList
 author: blueleek
 ---
+
 
 基本思想：<br/>
 归并排序是利用归并的思想实现的排序算法。<br/>
 归并算法采用了经典的分治策略，将问题分解称小的问题，然后递归求解，而治的阶段将分的阶段得到的答案拼接在一起。
 
  
+
+
+
+
+
+
+
 
 
 ### Problem Description
