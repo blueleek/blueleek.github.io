@@ -6,13 +6,16 @@ tags: LeetCode Algorithm LinkedList
 author: blueleek
 ---
 
-
-
-
-
-
 二叉查找树融合了链表插入的灵活性和有序数组查找的高效性，是一个经典的数据结构也是计算机科学中最重要的算法之一。<br/>
 今天复习一下二叉查找树前序（根节点 -> 左子树 -> 右子树）遍历的实现。
+
+
+
+
+
+
+
+
 
 ### Problem Description
 > Given a binary tree, return the preorder traversal of its nodes' values.

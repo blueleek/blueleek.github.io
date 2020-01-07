@@ -6,15 +6,18 @@ tags: React React Hook
 author: blueleek
 ---
 
-
-
-
-
-
 ### React Hook
 React v16.7.0-alpha 中第一次提出了 Hooks 的概念，在 v16.8.0 版本被正式发布。它可以让你在不编写 class 的情况下使用 state 以及其他的 React 特性。<br/>
 
 React Hook 是一种特殊的函数，其本事可以是函数式组件（返回 Dom 或 Dom 及 State），也可以是一个工具函数（传入配置项返回封装过后的数据处理逻辑）
+
+
+
+
+
+
+
+
 
 #### 类组件的不足
 * 状态逻辑难复用：在组件之间复用状态逻辑很难，可能要用到 render props（渲染属性）或者 HOC（高阶组件），但是无论渲染属性，还是高阶组件，都会在外层包裹一层父容器（一般是 div 元素），导致层级冗余。
