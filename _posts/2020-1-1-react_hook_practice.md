@@ -6,6 +6,11 @@ tags: React React Hook
 author: blueleek
 ---
 
+
+
+
+
+
 ### React Hook
 React v16.7.0-alpha 中第一次提出了 Hooks 的概念，在 v16.8.0 版本被正式发布。它可以让你在不编写 class 的情况下使用 state 以及其他的 React 特性。<br/>
 
@@ -127,7 +132,7 @@ export  default  function Counter6(){
 * 深入优化
  1. useCallback: 接收一个内联回到函数参数和一个依赖项数组（子组件依赖父组件的状态，即子组件会使用到父组件的值），useCallback 会返回该回调函数的 memoized 版本，该回调函数仅在某个依赖项改变时才会更新
  2. useMemo： 把创建函数和依赖项数组作为参数传入 useMemo， 它仅会在某个依赖项改变时才会去重新计算 memoized 值，这种优化有助于在每次渲染时进行高开销的计算
- ```
+```
  import React,{useState,memo,useMemo,useCallback} from 'react';
  
  function SubCounter({onClick,data}){
@@ -165,9 +170,9 @@ export  default  function Counter6(){
          </>
      )
  }
- ```
+```
  
- #### useReducer
+#### useReducer
  * useReducer 和 redux 中 reducer 很像
  * useState 的替代方案，它接收一个形如(state, action) => newState 的 reducer， 并返回当前的 state 以及与其配套的 dispatch 方法
  * 在某些场景下，useReducer 会比 useState 更适用，例如 state 逻辑较复杂且包含多个值，或者下一个state 依赖于之前的 state
