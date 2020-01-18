@@ -8,13 +8,13 @@ author: blueleek
 
 
 
-### 题目表述
+### 题目描述
 > Given a binary tree, return the zigzag level order traversal of its nodes' values. (ie, from left to right, then right to left for the next level and alternate between).
 >
 >Example:
 > Input: [3,9,20,null,null,15,7]
 >
-> ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200118171313314.png)
+> ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200118171313314.png) <br/>
 > return its zigzag level order traversal as
 > ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200118171259558.png)
 
