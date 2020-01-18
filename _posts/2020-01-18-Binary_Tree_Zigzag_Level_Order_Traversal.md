@@ -6,16 +6,6 @@ tags: LeetCode Algorithm LinkedList
 author: blueleek
 ---
 
-### 二叉树的遍历
-> 遍历二叉树（Traversing Binary Tree）：是指按制定的规律对二叉树中的每个节点访问一次且仅访问一次。
-二叉树有深度遍历和广度遍历，深度遍历有前序，中序和后序三种遍历方法。二叉树的前序遍历可以用来显示目录结构等。中序遍历可以实现表达树，在编辑器底层很有用；后序遍历可以用来计算目录内文件及信息等。
-
-
-
-
-
-
-
 
 
 ### 题目表述
@@ -27,6 +17,19 @@ author: blueleek
 > ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200118171313314.png)
 > return its zigzag level order traversal as
 > ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200118171259558.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### 方法一：BFS 广度优先遍历
 从跟节点开始，沿着树的宽度一次遍历树的每个节点
