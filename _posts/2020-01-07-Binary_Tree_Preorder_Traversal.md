@@ -7,7 +7,7 @@ author: blueleek
 ---
 
 二叉查找树融合了链表插入的灵活性和有序数组查找的高效性，是一个经典的数据结构也是计算机科学中最重要的算法之一。<br/>
-今天复习一下二叉查找树前序（根节点 -> 左子树 -> 右子树）遍历的实现。
+今天借助 leetcode 这道题复习一下二叉查找树前序遍历的实现。
 
 
 
@@ -17,13 +17,16 @@ author: blueleek
 
 
 
-### Problem Description
+## 问题描述
 > Given a binary tree, return the preorder traversal of its nodes' values.
 >
 >Example:
 > Input: [1,null,2,3]
 >
 > ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200107231133530.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2hodGh3eA==,size_16,color_FFFFFF,t_70)
+
+
+## 题解
 
 ### 方法一：递归遍历
 类似于在二叉树中查找一个键的递归算法：
@@ -46,8 +49,8 @@ var preorderTraversal = function(root) {
 };
 
 ```
-时间复杂度： O（n）<br/>
-空间复杂度： O（logN）
+时间复杂度： O(n)<br/>
+空间复杂度： O(lg(n))
 
 ### 方法二： 模拟栈调用操作
 也可以不采用递归的方法进行遍历，模拟栈调用实现遍历
