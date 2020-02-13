@@ -11,9 +11,9 @@ type: page
 
 ## 关于我
 
-这个逗比就是我 /::-O
+&emsp;&emsp;这个逗比就是我 /::-O <br/>
 
-<div style="text-align: center; width: 600px; height: 450px;">
+<div style="margin: auto; width: 600px; height: 450px;">
 <img src="https://img-blog.csdnimg.cn/20200213181851349.jpeg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2hodGh3eA==,size_16,color_FFFFFF,t_70"/>
 </div>
 
@@ -31,7 +31,7 @@ type: page
 
 ## 联系我
 
-* GitHub：[Huheting](https://github.com/xiaohujiazi)
+* GitHub：[Blueleek](https://github.com/blueleek)
 * email：1611626562@qq.com
 * [Weibo](https://www.weibo.com/6622012918/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1)
 * [Facebook](https://www.facebook.com/profile.php?id=100030529303759&ref=bookmarks)
