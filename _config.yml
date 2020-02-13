@@ -36,7 +36,7 @@ disqus_shortname: XXX
 # hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
 # xxxxx字符串
 baidu_tongji_id: XXX
-google_analytics_id: UA-153205957-1 # google 分析追踪id
+google_analytics_id: UA-156417952-1 # google 分析追踪id
 
 # Build settings
 markdown: kramdown
