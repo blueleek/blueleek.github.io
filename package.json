@@ -1,0 +1,24 @@
+{
+  "name": "blueleek.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "hexo-server": "^0.2.2",
+    "jekyll": "^3.0.0-beta1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blueleek/blueleek.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blueleek/blueleek.github.io/issues"
+  },
+  "homepage": "https://github.com/blueleek/blueleek.github.io#readme"
+}
