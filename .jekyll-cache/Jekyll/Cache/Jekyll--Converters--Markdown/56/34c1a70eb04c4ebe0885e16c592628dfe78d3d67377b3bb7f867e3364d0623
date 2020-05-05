@@ -1,0 +1,5 @@
+I"�<h3 id="react-hook">React Hook</h3>
+<p>React v16.7.0-alpha 中第一次提出了 Hooks 的概念，在 v16.8.0 版本被正式发布。它可以让你在不编写 class 的情况下使用 state 以及其他的 React 特性。<br /></p>
+
+<p>React Hook 是一种特殊的函数，其本事可以是函数式组件（返回 Dom 或 Dom 及 State），也可以是一个工具函数（传入配置项返回封装过后的数据处理逻辑）</p>
+:ET

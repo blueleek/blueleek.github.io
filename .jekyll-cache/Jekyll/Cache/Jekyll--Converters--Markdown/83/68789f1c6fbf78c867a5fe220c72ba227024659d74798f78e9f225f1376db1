@@ -1,0 +1,87 @@
+I" <p>最近在复习链表数据结构，刷了些 LeetCode 的题，很多思路相似，但很有趣的是在过程中遇到很多更优解和数学证明，以博客进行记录和思路梳理。</p>
+
+<h3 id="problem-description">Problem Description</h3>
+
+<blockquote>
+  <p>Given a non-empty, singly linked list with head node head, return a middle node of linked list.
+If there are two middle nodes, return the second middle node.</p>
+</blockquote>
+
+<blockquote>
+  <p>Example 1:
+Input: [1,2,3,4,5]
+ Output: Node 3 from this list (Serialization: [3,4,5])
+ The returned node has value 3.  (The judge’s serialization of this node is [3,4,5]).
+ Note that we returned a ListNode object ans, such that:
+ ans.val = 3, ans.next.val = 4, ans.next.next.val = 5, and ans.next.next.next = NULL.</p>
+</blockquote>
+
+<blockquote>
+  <p>Example 2:
+ Input: [1,2,3,4,5,6]
+ Output: Node 4 from this list (Serialization: [4,5,6])
+ Since the list has two middle nodes with values 3 and 4, we return the second one.</p>
+</blockquote>
+
+<blockquote>
+  <p>Note:
+ The number of nodes in the given list will be between 1 and 100.
+ If there are two middle nodes, return the second middle node.</p>
+</blockquote>
+
+<h3 id="方法一求链表长度取中点">方法一：求链表长度取中点</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> let middleNode = function(head) {
+     let targetLen = Math.ceil(getLength(head)/2);
+     return returnAtPosition(head, targetLen);
+ };
+ 
+ let getLength = function(node) {
+     let length = 0;
+     while(node.next) {
+         length += 1;
+         node = node.next;
+     }
+     return length;
+ };
+ 
+ let returnAtPosition = function(node, targetLen) {
+     for(let i = 0; i &lt; targetLen; i++) {
+         node = node.next;
+     }
+     return node;
+ };
+</code></pre></div></div>
+
+<h3 id="方法二快慢指针">方法二：快慢指针</h3>
+
+<p>可以先使用举例论证法找到规律：</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> 1 &gt; 2 &gt; 3 &gt; 4
+ 1 &gt; 2 &gt; 3 &gt; 4 &gt; 5
+</code></pre></div></div>
+<p>定义快慢指针，<code class="highlighter-rouge">slow</code>，<code class="highlighter-rouge">fast</code>，慢指针每向前移动一步，快指针移动两步，根据链表长度奇偶特性，当偶数长度链表快指针 <code class="highlighter-rouge">fast.next.next
+  === null</code> 时，返回 <code class="highlighter-rouge">slow.next</code>，当奇数长度链表 <code class="highlighter-rouge">fast.next === null</code> 时，返回 <code class="highlighter-rouge">slow</code></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> var middleNode = function(head) {
+   if (head === null) {
+       return false; 
+   }
+     
+   var slow = head;
+   var fast = head;
+   while (true) {
+       if (fast.next === null) {
+           return slow;
+       }
+       
+       if (fast.next.next === null) {
+           return slow.next;
+       }
+       
+       fast = fast.next.next
+       slow = slow.next
+   }
+ };
+</code></pre></div></div>
+
+:ET

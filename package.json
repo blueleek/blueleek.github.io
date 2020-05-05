@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "hexo-server": "^0.2.2",
-    "jekyll": "^3.0.0-beta1"
+    "jekyll": "3.0.0-beta1"
   },
   "devDependencies": {},
   "scripts": {
