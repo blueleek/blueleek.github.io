@@ -96,16 +96,16 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "WY",
-        href: "http://zhengwuyang.com"
+        title: "MSDN,我告诉你新站",
+        href: "https://next.itellyou.cn"
     },{
         title: "简书·BY",
         href: "http://www.jianshu.com/u/e71990ada2fd"
     },{
-        title: "Apple",
-        href: "https://apple.com"
+        title: "Micorsoft",
+        href: "https://micorsoft.com"
     },{
-        title: "Apple Developer",
-        href: "https://developer.apple.com/"
+        title: "Linux中国",
+        href: "https:///"
     }
 ]
