@@ -96,14 +96,14 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "MSDN,我告诉你新站",
-        href: "https://next.itellyou.cn"
+        title: "MSDN我告诉你新站",
+        href: "https://next.itellyou.cn/"
     },{
         title: "简书·BY",
-        href: "http://www.jianshu.com/u/e71990ada2fd"
+        href: "http://www.jianshu.com/u/e71990ada2fd/"
     },{
-        title: "BY Blog",
-        href: "http://qiubaiying.vip"
+        title: "Welcome page",
+        href: "https://kalicn.github.io/welcome/"
     },{
         title: "Linux中国",
         href: "https://linux.cn/"
