@@ -56,7 +56,7 @@ $('.waifu-tool .fui-user').click(function (){
 });
 
 $('.waifu-tool .fui-info-circle').click(function (){
-    window.open('https://www.cnblogs.com/yjlblog/p/8724881.html');
+    window.open('https://kalicn.github.io/welcome/');
 });
 
 $('.waifu-tool .fui-cross').click(function (){
@@ -66,7 +66,7 @@ $('.waifu-tool .fui-cross').click(function (){
 });
 
 $('.waifu-tool .fui-photo').click(function (){
-    showMessage('照好了嘛，是不是很可爱呢？', 5000, true);
+    showMessage('照好了嘛，是不是很可爱呢，记得收藏哦！', 5000, true);
     window.Live2D.captureName = 'Live2D.png';
     window.Live2D.captureFrame = true;
 });
@@ -109,7 +109,7 @@ function waifuWelcome(){
             } else if (domain == 'so') {
                 text = 'Hello! 来自 360搜索 的朋友<br>你是搜索 <span style="color:#0099cc;">' + referrer.search.split('&q=')[1].split('&')[0] + '</span> 找到的我吗？';
             } else if (domain == 'google') {
-                text = 'Hello! 来自 谷歌搜索 的朋友<br>欢迎阅读<span style="color:#0099cc;">『' + document.title.split(' - ')[0] + '』</span>';
+                text = 'Hello! 来自 Google 的朋友<br>欢迎阅读，你是翻墙了吗？<span style="color:#0099cc;">『' + document.title.split(' - ')[0] + '』</span>';
             } else {
                 text = 'Hello! 来自 <span style="color:#0099cc;">' + referrer.hostname + '</span> 的朋友';
             }
@@ -263,7 +263,7 @@ var waifuJson = {
         },
         {
             "selector": ".donate-qrcode",
-            "text": ["主人最近在吃土呢，很辛苦的样子。给他一些钱钱吧~"]
+            "text": ["主人最近在吃土呢，很辛苦的样子。给他一些钱钱吧。呜呜~"]
         },
         {
             "selector": "#wenkmPlayer div.switch-player",
@@ -363,7 +363,7 @@ var waifuJson = {
         },
         {
             "date": "06/01",
-            "text": "<span style=\"color:#0099cc;\">儿童节</span>了呢，快活的时光总是短暂，要是永远长不大该多好啊…"
+            "text": "<span style=\"color:#0099cc;\">儿童节</span>了呢，主人就是儿童哦（偷笑）"
         },
         {
             "date": "09/03",
@@ -371,11 +371,11 @@ var waifuJson = {
         },
         {
             "date": "09/10",
-            "text": "<span style=\"color:#0099cc;\">教师节</span>，在学校要给老师问声好呀~"
+            "text": "<span style=\"color:#0099cc;\">教师节</span>，在学校要给老师问声好呀。主人说：我在反学校！~"
         },
         {
             "date": "10/01",
-            "text": "<span style=\"color:#0099cc;\">国庆节</span>，新中国已经成立69年了呢"
+            "text": "<span style=\"color:#0099cc;\">国庆节</span>，新中国已经成立71年了呢"
         },
         {
             "date": "11/05-11/12",
