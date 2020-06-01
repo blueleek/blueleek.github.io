@@ -73,7 +73,7 @@ $('.waifu-tool .fui-photo').click(function (){
 
 function waifuWelcome(){
     var text;
-    var SiteIndexUrl = 'https://www.fghrsh.net/';  // 手动指定主页
+    var SiteIndexUrl = 'https://www.kalicn.github.io/';  // 手动指定主页
     //var SiteIndexUrl = window.location.protocol+'//'+window.location.hostname+'/';  // 自动获取主页
 
     if (window.location.href == SiteIndexUrl) {      // 如果是主页
@@ -291,7 +291,7 @@ var waifuJson = {
         },
         {
             "selector": "navbar-page-97",
-            "text": ["这里都是主人的黑历史呢"]
+            "text": ["这里都是主人的黑历史呢XX"]
         },
         {
             "selector": "#navbar-page-31",
@@ -333,7 +333,7 @@ var waifuJson = {
     "click": [
         {
             "selector": ".waifu #live2d",
-            "text": ["是…是不小心碰到了吧", "萝莉控是什么呀", "你看到我的小熊了吗", "再摸的话我可要报警了！⌇●﹏●⌇", "110吗，这里有个变态一直在摸我(ó﹏ò｡)"]
+            "text": ["是…是不小心碰到了吧，我想", "萝莉控是什么呀，变态", "你看到我的小熊了吗？", "再摸的话我可要报警了！⌇●﹏●⌇", "110吗，这里有个萝莉控一直在摸我(ó﹏ò｡)"]
         }
     ],
     "seasons": [
