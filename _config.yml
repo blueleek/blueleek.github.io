@@ -39,7 +39,7 @@ anchorjs: true                          # if you want to customize anchor. check
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
-gems: [jekyll-paginate]
+gems: [jekyll-paginate,jemoji,jekyll-sitemap]
 
 
 
@@ -68,6 +68,7 @@ gitalk:
   owner: kalicn    #github用户名
   admin: kalicn
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
+  perPage: 15
 
 
 # 统计
