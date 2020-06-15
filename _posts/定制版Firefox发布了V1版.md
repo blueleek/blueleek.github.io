@@ -1,16 +1,15 @@
 ---
 layout:     post
-title:      Kali定制版Firefox发布了！
+title:      Kali定制版Firefox发布了
 date:       2020-06-15
 author:     Kali
 img: img/post-bg-debug.png
-catalog: false
+catalog: true
 tags:
-    - 浏览器定制
-    - 定制
+    -定制
 ---
 
-# 先上下载地址！
+# 先上下载地址
 
 链接: https://pan.baidu.com/s/1t_9xsnLSoPddlplH7h-KIQ 提取码: 46jy
 
