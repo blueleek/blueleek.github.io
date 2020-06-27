@@ -28,3 +28,8 @@ layout: null
     {% endfor %}
   </channel>
 </rss>
+
+<styel text/css>
+  <script>
+    alert("RSS万岁");
+  </script>
