@@ -29,7 +29,3 @@ layout: null
   </channel>
 </rss>
 
-<styel text/css>
-  <script>
-    alert("RSS万岁");
-  </script>
