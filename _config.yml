@@ -70,6 +70,9 @@ gitalk:
 # Baidu Analytics
 ba_track_id: 4383e168cd44bd4eeedaa34229a603c5
 
+ga_track_id: 'UA-171298607-1'
+ga_domain: auto
+
 
 
 
