@@ -41,7 +41,7 @@ layout: default
                     <h2 class="subheading">{{ page.subtitle }}</h2>
                     {% comment %} endif {% endcomment %}
 		   
-                    <span class="meta">Author: {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} Time: {{ page.date | date: "%B %-d, %Y" }}</span>
+                    <span class="meta">作者: {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} 时间: {{ page.date | date: "%B %-d, %Y" }}字数：{{ content | strip_html | strip_newlines | split: "" | size }}</span>
                 </div>
             </div>
         </div>
