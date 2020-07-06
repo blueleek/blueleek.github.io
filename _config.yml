@@ -55,7 +55,7 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true   #是否开启Gitalk评论
-  clientID: 5943aeedd7ee1a1cbdf7                        #生成的clientID
+  clientID: 5943aeedd7ee1a1cbdf7        # 嘿，别乱看我的秘密                #生成的clientID
   clientSecret: 4ffbc9e4eb8b6aef2b390b2bda69ed6a744c5c07    #生成的clientSecret
   repo: kalicn.github.io    #仓库名称
   owner: kalicn    #github用户名
@@ -86,8 +86,8 @@ featured-condition-size: 1             # 相同标签数量大于这个数，才
 # Friends
 friends: [
     {
-        title: "MSDN我告诉你新站",
-        href: "https://next.itellyou.cn/"
+        title: "七夏浅笑",
+        href: "http://julydate.com/"
     },{
         title: "草地上的蚂蚁的博客",
         href: "https://hillychen.github.io/"
