@@ -1,0 +1,73 @@
+I"8<p>在实现链表算法中，有时需针对多种情况分类讨论，稍不注意，就会遗漏某种情况。因此可使用一些 tricky 的做法将情况简化。</p>
+
+<h3 id="problem-description">Problem Description</h3>
+
+<blockquote>
+  <p>Remove all elements from a linked list of integers that have value val.</p>
+
+  <p>Example: <br /></p>
+  <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  Input:  1-&gt;2-&gt;6-&gt;3-&gt;4-&gt;5-&gt;6, val = 6
+  Output: 1-&gt;2-&gt;3-&gt;4-&gt;5
+</code></pre></div>  </div>
+</blockquote>
+
+<p>在这道删除链表节点的题目中，针对分类讨论和使用伪节点的方法都给出了对应的解答。<br />
+在时间和空间复杂度上，两种方法表现一致，但使用伪节点的方法避免了分类讨论，使得代码更加简洁，优雅，可读性更高。</p>
+
+<h3 id="方法一分类讨论">方法一：分类讨论</h3>
+<p>思路：对不同情况进行分类处理</p>
+<ul>
+  <li>当头节点等于val，执行重复handle，将 <code class="highlighter-rouge">head = head.next</code></li>
+  <li>当前 <code class="highlighter-rouge">current.next</code> match 到要匹配的 val，将 <code class="highlighter-rouge">current.next = current.next.next</code>，否则将其置为 <code class="highlighter-rouge">node after</code> <br /></li>
+</ul>
+
+<p>代码示例：</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>var removeElements = function(head, val) {
+    if (head === null) {
+        return null;
+    }
+    
+    while (head) {
+        if (head.val === val) {
+            head = head.next;
+        } else {
+            break;
+        }
+    }
+  
+    let curr = head;
+    while (curr !== null &amp;&amp; curr.next !== null) {
+        if (curr.next.val === val) {
+            curr.next = curr.next.next
+        } else {
+            curr = curr.next   
+        }
+    }
+    return head;
+};
+</code></pre></div></div>
+
+<h3 id="方法二-使用伪节点归一情况">方法二： 使用伪节点归一情况</h3>
+<p>思路：声明一个 dummyNode，将其作为头节点，这样判断是否匹配 val 的情况都是在 <code class="highlighter-rouge">current.next</code> 下进行讨论，无需考虑头节点和 <code class="highlighter-rouge">val</code> 匹配的情况 <br />
+代码示例：</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>var removeElements = function(head, val) {
+    if (head == null) {
+        return null;
+    }
+    
+    var dummy = new ListNode(undefined);
+    dummy.next = head;
+    var curr = dummy;
+    while (curr !== null &amp;&amp; curr.next !== null) {
+        if (curr.next.val === val) {
+            curr.next = curr.next.next
+        } else {
+            curr = curr.next;
+        }
+    }
+    return dummy.next;
+};
+
+</code></pre></div></div>
+
+:ET
