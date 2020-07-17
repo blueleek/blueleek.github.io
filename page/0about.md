@@ -20,10 +20,12 @@ type: page
 
 <br/>&emsp;&emsp;现就职于字节跳动，前端开发工程师，英文名 Ella。
 
-&emsp;&emsp;主要兴趣集中在前端开发，热衷大前端，热爱广告，追求建设科学全面的视角，成为一名理性人。
+&emsp;&emsp;主要兴趣集中在前端开发，热衷大前端，热爱思考产品逻辑。平时喜欢阅读各类书籍，喜欢写作。
 
-&emsp;&emsp;平时乐观。开朗，逗比，爱读书，爱写作。<br/>
-&emsp;&emsp;欢迎关注我的公众号：爱读书的蓝韭菜，一起加入读好书，看世界。
+&emsp;&emsp;追求建设科学全面的视角，成为一名理性人。
+
+
+&emsp;&emsp;扫描下面二维码，关注海派甜心老韭菜吧。<br/>
 <div style="text-align: center">
 <img src="https://pic1.zhimg.com/80/v2-e9a8c6db60c6ed251ad46fa464063dac_hd.jpg"/>
 </div>
@@ -32,7 +34,7 @@ type: page
 ## 联系我
 
 * GitHub：[Blueleek](https://github.com/blueleek)
-* email：1611626562@qq.com
+* email：huheting.ella@gmail.com
 * [Weibo](https://www.weibo.com/6622012918/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1)
 * [Facebook](https://www.facebook.com/profile.php?id=100030529303759&ref=bookmarks)
 

@@ -7,7 +7,7 @@
 
 # Site settings
 title: Blog
-brief-intro: FE
+brief-intro:
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://github.com/xiaohujiazi/" # the base hostname & protocol for your site
 

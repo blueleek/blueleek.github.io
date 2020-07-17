@@ -15,7 +15,7 @@
 * [预览图](#预览图)
 * [各部分详情](#各部分详情)
     * [主页 Home](#主页-home)
-    * [归档页 Archives](#归档页-archives)
+    * [归档页 Footprint](#归档页-archives)
     * [分类页 Categories](#分类页-categories)
     * [标签页 Tags](#标签页-tags)
     * [收藏页 Collections](#收藏页-collections)
