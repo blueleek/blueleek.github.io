@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "一文搞懂 PGC、UGC、OGC 有啥区别？"
+title:  "一文搞懂 PGC、UGC、OGC 有啥区别"
 categories: 产品设计
 tags: 产品设计
 author: blueleek
