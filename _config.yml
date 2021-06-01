@@ -1,24 +1,24 @@
 # Site settings
-title: Kali Blog
-SEOTitle: Kali 的小站
-header-img: img/post-bg-desk.jpg
-email: kalierincn@outlook.com
-description: "中立最好，学校最坏."
-keyword: "Kali Blog, Kali的小站"
-url: "https://kalicn.github.io"          # your host, for absolute URL
+title: Ella Blog
+SEOTitle: Ella Blog
+header-img: img/star.jpeg
+email: huheting.ella@gmail.com
+description: "打得赢就打，打不赢就走."
+keyword: "Ella 胡鹤婷 Blog 产品"
+url: "https://blueleek.blue/"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/kalicn/kalicn.github.io.git" # you code repository
+github_repo: "https://github.com/blueleek/blueleek.github.io" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "与其看教科书，还不如读Linux源码。"
-sidebar-avatar: /img/yeswecode.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "努力理性的工科产品女"
+sidebar-avatar: /img/avatar.jpeg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # SNS settings
 RSS: true
-github_username:    kalicn
+github_username:    blueleek
 
 
 
@@ -53,15 +53,15 @@ kramdown:
 
 # 评论系统
 # Gitalk
-gitalk:
-  enable: true   #是否开启Gitalk评论
-  clientID: 5943aeedd7ee1a1cbdf7        # 嘿，别乱看我的秘密                #生成的clientID
-  clientSecret: 4ffbc9e4eb8b6aef2b390b2bda69ed6a744c5c07    #生成的clientSecret
-  repo: kalicn.github.io    #仓库名称
-  owner: kalicn    #github用户名
-  admin: kalicn
-  distractionFreeMode: false #是否启用类似FB的阴影遮罩
-  perPage: 15
+#gitalk:
+#  enable: true   #是否开启Gitalk评论
+#  clientID: 5943aeedd7ee1a1cbdf7        # 嘿，别乱看我的秘密                #生成的clientID
+#  clientSecret: 4ffbc9e4eb8b6aef2b390b2bda69ed6a744c5c07    #生成的clientSecret
+#  repo: kalicn.github.io    #仓库名称
+#  owner: kalicn    #github用户名
+#  admin: kalicn
+#  distractionFreeMode: false #是否启用类似FB的阴影遮罩
+#  perPage: 15
 
 
 # 统计
@@ -70,7 +70,7 @@ gitalk:
 # Baidu Analytics
 ba_track_id: 4383e168cd44bd4eeedaa34229a603c5
 
-ga_track_id: 'UA-171298607-1'
+ga_track_id: 'UA-156417952-1'
 ga_domain: auto
 
 
@@ -83,23 +83,23 @@ featured-tags: true                     # 是否使用首页标签
 featured-condition-size: 1             # 相同标签数量大于这个数，才会出现在首页
 
 
-# Friends
-friends: [
-    {
-        title: "七夏浅笑",
-        href: "http://julydate.com/"
-    },{
-        title: "可视化",
-        href: "https://gujiayu7676.github.io/"
-
-    },{
-        title: "Jiyiren.Blog",
-        href: "https://jiyiren.github.io/"
-    },{
-        title: "由我管理的NoSchoolBlog",
-        href: "https://kalicn.github.io/noschoolblog/"
-    },{
-        title: "Tianhaoo的博客",
-        href: "https://tianhaoo.github.io/"
-    }    
-]
+## Friends
+#friends: [
+#    {
+#        title: "七夏浅笑",
+#        href: "http://julydate.com/"
+#    },{
+#        title: "可视化",
+#        href: "https://gujiayu7676.github.io/"
+#
+#    },{
+#        title: "Jiyiren.Blog",
+#        href: "https://jiyiren.github.io/"
+#    },{
+#        title: "由我管理的NoSchoolBlog",
+#        href: "https://kalicn.github.io/noschoolblog/"
+#    },{
+#        title: "Tianhaoo的博客",
+#        href: "https://tianhaoo.github.io/"
+#    }
+#]
