@@ -4,14 +4,14 @@ SEOTitle: 胡鹤婷 博客
 header-img: img/star.jpeg
 email: huheting.ella@gmail.com
 description: "打得赢就打，打不赢就走."
-keyword: "Ella 胡鹤婷 Blog 产品"
+keyword: "Ella 胡笛笛 Blog 产品"
 url: "https://blueleek.blue/"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/blueleek/blueleek.github.io" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "努力理性的工科产品女"
+sidebar-about-description: "用交叉学科构建产品职业理论&实践传道士"
 sidebar-avatar: /img/avatar.jpeg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
