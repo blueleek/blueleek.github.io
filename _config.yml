@@ -1,9 +1,9 @@
 # Site settings
-title: Who am I
-SEOTitle: 胡鹤婷 博客
+title: 用交叉学科构建产品职业发展理论&企业实践传道士｜聚焦搜索、推荐&AI
+SEOTitle: 胡笛笛 博客
 header-img: img/star.jpeg
 email: huheting.ella@gmail.com
-description: "打得赢就打，打不赢就走."
+description: "不知道如何把自己的意志放到事物中的人，至少还是把一种意义放到这些事物中；也就是说，他相信有一种意志在事物中了。"
 keyword: "Ella 胡笛笛 Blog 产品"
 url: "https://blueleek.blue/"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
